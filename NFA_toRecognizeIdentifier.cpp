@@ -40,6 +40,7 @@ int main() {
     string s; cin >> s;
     tokens.push_back(s);
     while (cin >> s) {
+		if(s == ";") break;
         tokens.push_back(s);
     }
 
